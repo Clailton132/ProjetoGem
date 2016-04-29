@@ -1,0 +1,30 @@
+
+	h1,h2,h3,h4,h5,h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+	}
+
+	hr.star-light,hr.star-primary {
+    margin: 35px auto 50px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+.margens {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+header {
+    text-align: center;
+    color: #fff;
+    background: url("");
+}
+header img {
+	padding-top: 50px;
+	padding-bottom: 50px;
+    display: block;
+    margin: 0 auto 20px;
+}
