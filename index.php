@@ -52,7 +52,7 @@
         			</ul>
       			</li>
 				<li><a href="#sobre">Sobre</a></li>
-				<li><a href="#"><img src="img/eua.png"></span> English</a></li>
+				<li><a href="#"><img src="img/eua.png"></span> English</a></li> 
 			</ul>
 		</div>
 	</div>
