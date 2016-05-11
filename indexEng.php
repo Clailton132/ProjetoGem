@@ -48,7 +48,7 @@
         			</ul>
       			</li>
 				<li><a href="#sobre">Sobre</a></li>
-				<li><a href="indexEng.php"><img src="img/eua.png"></span> English</a></li> 
+				<li><a href="index.php"><img src="img/eua.png"></span> Português</a></li> 
 			</ul>
 		</div>
 	</div>
