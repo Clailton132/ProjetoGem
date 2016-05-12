@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en-us">
 <head>
-	<title>Laborat&oacute;rio de Sistemas de Conhecimento</title>
+	<title>KNOWLEDGE SYSTEMS LABORATORY</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
@@ -34,18 +34,11 @@
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav navbar-right">
-				<li class="active"><a href="#atuacao">Atuação</a></li>
-				<li><a href="#pessoas">Pessoas</a></li>
-				<li><a href="#projetos">Projetos</a></li>
-				<li><a href="#recursos">Recursos</a></li>
-				<li><a href="#publicacoes">Publicações</a></li>
-				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#veja">Veja também <span class="caret"></span></a>
-        			<ul class="dropdown-menu">
-          				<li><a href="#veja">Outros labs</a></li>
-          				<li><a href="#veja">Pessoas da IA</a></li>
-          				<li><a href="#veja">App IA/WEB</a></li>
-          				<li><a href="#veja">Disciplinas IA/UFSC</a></li>
-        			</ul>
+				<li class="active"><a href="#atuacao">Research Areas</a></li>
+				<li><a href="#pessoas">Staff</a></li>
+				<li><a href="#projetos">Projects</a></li>
+				<li><a href="#recursos">Resources</a></li>
+				<li><a href="#publicacoes">Publications</a></li>
       			</li>
 				<li><a href="#sobre">Sobre</a></li>
 				<li><a href="index.php"><img src="img/eua.png"></span> Português</a></li> 
@@ -61,49 +54,39 @@
 		<header>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="background: #5cd65c;">
 				<img style="height: auto; " class="img-responsive img-circle" src="img/bola.jpg">
-				<h2>LABORATÓRIO de SISTEMAS de CONHECIMENTO</h2>
+				<h2>KNOWLEDGE SYSTEMS LABORATORY</h2>
 			</div>
 		</header>
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margens" id="atuacao" >
 			<div class="col-lg-12 text-center">
-				 <h2>Atuação</h2>   
+				 <h2>Research Areas</h2>   
 				<hr class="star-light">
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
-						<h4>Sistemas Multi-Agentes</h4>
-						<!-- <small></small><br></br> -->
+						<h4>Multiagent Systems</h4>
 						<p>Os Sistemas Multiagentes (SMA) formam uma sub-área da Inteligência artificial Distribuída e concentram-se no estudo de agentes autônomos em um universo multiagente. Para os SMA, o termo autônomo designa o fato de que os agentes têm uma existência própria, independente da existência de outros agentes.</p>
-						<small><strong></strong><p></p></small>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
-						<h4>Processamento de Linguagem Natural</h4>
-						<!-- <small></small><br></br> -->
+						<h4>Natural Lnaguage Processing</h4>
 						<p>é uma subárea da inteligência artificial e da linguística que estuda os problemas da geração e compreensão automática de línguas humanas naturais. Sistemas de geração de linguagem natural convertem informação de bancos de dados de computadores em linguagem normalmente compreensível ao ser humano, e sistemas de compreensão de linguagem natural convertem ocorrências de linguagem humana em representações mais formais, mais facilmente manipuláveis por programas de computador.</p>
-						<small><strong></strong><p></p></small>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 						<h4>Realidade Virtual</h4>
-						<!-- <small></small><br></br> -->
 						<p>Realidade virtual é uma tecnologia de interface avançada entre um usuário e um sistema operacional. O objetivo dessa tecnologia é recriar ao máximo a sensação de realidade para um indivíduo, levando-o a adotar essa interação como uma de suas realidades temporais</p>
-						<small><strong></strong><p></p></small>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 						<h4>Sistemas Orientados a Objetos</h4>
-						<!-- <small></small><br></br> -->
 						<p>É um modelo de análise, projeto e programação de sistemas de software baseado na composição e interação entre diversas unidades de software chamadas de objetos.</p>
-						<small><strong></strong><p></p></small>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 						<h4>Informática na Educação</h4>
-						<!-- <small></small><br></br> -->
 						<p>Informática educativa refere -se ao uso do computador e suas ferramentas no âmbito escolar, enquanto recurso pedagógico a ser utilizado pelo profissional docente. Embora o termo informática não seja o mais atual (comum na década de 80), o termo informática educativa continua sendo utilizado pelos profissionais da educação.</p>
-						<small><strong></strong><p></p></small>
 					</div>
 				</div>
 			</div>	
