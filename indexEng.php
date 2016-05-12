@@ -75,17 +75,17 @@
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
-						<h4>Realidade Virtual</h4>
+						<h4>Virtual Reality</h4>
 						<p>Realidade virtual é uma tecnologia de interface avançada entre um usuário e um sistema operacional. O objetivo dessa tecnologia é recriar ao máximo a sensação de realidade para um indivíduo, levando-o a adotar essa interação como uma de suas realidades temporais</p>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
-						<h4>Sistemas Orientados a Objetos</h4>
+						<h4>Object Oriented Systems</h4>
 						<p>É um modelo de análise, projeto e programação de sistemas de software baseado na composição e interação entre diversas unidades de software chamadas de objetos.</p>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
-						<h4>Informática na Educação</h4>
+						<h4>Computing in Education</h4>
 						<p>Informática educativa refere -se ao uso do computador e suas ferramentas no âmbito escolar, enquanto recurso pedagógico a ser utilizado pelo profissional docente. Embora o termo informática não seja o mais atual (comum na década de 80), o termo informática educativa continua sendo utilizado pelos profissionais da educação.</p>
 					</div>
 				</div>
@@ -93,10 +93,10 @@
 		</div>	
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margens" id="pessoas" style="background: #5cd65c;">
 			<div class="col-lg-12 text-center" id="pessoas" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
-		            <h2>Pessoas</h2>
+		            <h2>Staff</h2>
 		            <hr class="star-light">
 					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-						<h4>Professores</h4>
+						<h4>Professors</h4>
 						<!-- Função php que lista a url e nome dos professores -->
 						<?php
 							$conexao = mysqli_connect("127.0.0.1","root","","lsc");
@@ -108,7 +108,7 @@
 						<?php endwhile; ?>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-						<h4>Bolsistas DTI</h4>
+						<h4>Scholarship DTI</h4>
 						<!--Função php que lista os bolsistas -->
 						<?php
 							$conexao = mysqli_connect("127.0.0.1","root","","lsc");
@@ -120,7 +120,7 @@
 						<?php endwhile; ?>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-						<h4>Doutorandos</h4>
+						<h4>PhD Students</h4>
 						<!-- Função php que lista os doutorandos -->
 						<?php
 							$conexao = mysqli_connect("127.0.0.1","root","","lsc");
@@ -132,7 +132,7 @@
 						<?php endwhile; ?>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-						<h4>Mestrandos</h4>
+						<h4>Masters Students</h4>
 						<p>Cristina Elisabeth Ricken </p>
 						<p>Alvaro de Azevedo Diaz</p>
 						<p>Richard G. Vieira </p>
@@ -141,7 +141,7 @@
 						<p>Monica Carapeços Arriada</p>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-						<h4>Bolsistas ITI</h4>
+						<h4>Scholarship ITI</h4>
 						<p>Igor Heidrich </p>
 						<p>Glauber Volkmer </p>
 						<p>Fábio Petrúcio </p>
@@ -150,50 +150,68 @@
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margens" id="projetos" >
 			<div class="col-lg-12 text-center">
-		        <h2>Projetos</h2>
+		        <h2>Projects</h2>
 				<hr class="star-light">
 		    </div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
-					<h4>Museu virtual</h4>
-					<small>Ferramenta de Autoria para a Construção Colaborativa de Museus em Realidade Virtual</small><br></br>
-					<p>O objetivo do projeto museuVirtual é o desenvolvimento de uma ferramenta de autoria para a construção colaborativa de museus em realidade virtual nos quais imagens e objetos 3D possam ser expostos. Tais objetos e imagens podem ser explorados diretamente, através do mouse e teclado (realidade virtual não imersiva) e também, havendo disponibilidade, através de dispositivos de realidade virtual como luva e capacete (realidade virtual imersiva). Os objetos podem também ser manipulados pelo visitante do museu através de comandos, ao espírito dos adventure games. Além disso, a ferramenta permite a criação de guias virtuais ou bots com conhecimento sobre os objetos em exposição e sobre os próprios visitantes. </p>
-					<small><strong>Apoio:</strong><p> ProTeM-CC - CNPq</p></small>
+					<h4>MuseuVirtual</h4>
+					<small></small><br></br>
+					<p>The museuVirtual project aims to develop an authoring tool for the collaborative building of museums in virtual reality. In such museums 3D objects and/or images will be exposed and available to be directly explored using non immersive virtual reality - through the mouse and the keyboard. When accessible devices such as HMDs and gloves that allow immersive virtual reality can be used. The objects also will be manipulated by the museum visitor trough pre-defined commands similarly as in an adventure game. Moreover, the authoring tool will allow the creation of virtual guides or   bots that have knowledge about both the exhibited objects and the visitors themselves.</p>
+					<small><strong>Sponsored:</strong><p> ProTeM-CC - CNPq</p></small>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4>AgroREDE</h4>
-					<small>Projeto de articulação de atores rurais no estado de Santa Catarina </small><br></br>
-					<p>O objetivo principal deste projeto é estruturar uma rede de serviços de telemática que articule os diversos atores rurais, sobretudo aqueles ligados à agricultura familiar de SC. A hipótese básica é a de que tais serviços devem promover a melhoria da qualidade de vida destas famílias a partir do desenvolvimento sustentável do seu potencial produtivo. Isto porque além da divulgação de informações técnicas de produção e de mercado, esta rede deve permitir que tais atores compartilhem seus problemas e soluções, estabelecendo estratégias conjuntas de produção e comercialização dos seus produtos.</p>
+					<small>Project articulation of rural actors in the state of Santa Catarina</small><br></br>
+					<p>This project aims to structure a network of telematic services that articulates the diverse rural actors in particular those ones related to the family agriculture system in the State of Santa Catarina, Brazil. The underlying hypothesis is that the services provided will improve the life conditions of the families involved due to the sustainable development of their productive potential. This improvement is achieved with the access to information concerning production techniques and marketing. This network should share its problems and solutions, establishing joint strategies for the production and trade.</p>
 					<small><strong></strong><p></p></small>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
+					<h4>MuVISC</h4>
+					<small>Virtual Museum of Santa Catarina Island </small><br></br>
+					<p>The Virtual Museum of Santa Catarina Island will create a virtual museum using the Santa Catarina Island photographs collection. Such collection focus on photographs by the island artists and inhabitants.</p>
+					<small><strong>Sponsored:</strong><p> PAPED - CAPES</p></small>
+				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4>Mundo dos atores</h4>
-					<small>Introdução à Programação Orientada a Objetos </small><br></br>
-					<p>Este projeto busca desenvolver um ambiente que favoreça o processo de aprendizagem dos conceitos da programação Orientada a Objetos. </p>
+					<small>Introduction to Object-Oriented Programming</small><br></br>
+					<p>The Actors World project aims to develop an environment that favour the learning process of concepts in the discipline of Introduction to Object-Oriented Programming.</p>
 					<small><strong></strong><p></p></small>
 				</div>
-				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
-					<h4>MuVISC</h4>
-					<small>Museu Virtual da Ilha de Santa Catarina </small><br></br>
-					<p>Este projeto propõe a criação de um museu virtual que reuna o acervo fotográfico produzido sobre a Ilha de Santa Catarina. O acervo será criado através de imagens produzidas por artistas e habitantes da ilha.  </p>
-					<small><strong>Apoio:</strong><p> PAPED - CAPES</p></small>
-				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
-				<h4></h4>
-				<small></small>
-				<p></p>
-				<small><strong></strong><p></p></small>
+				<h4>APSMA</h4>
+				<small>Environments for Programming  of Multiagent Systems</small>
+				<p>The ASPMA (Environments for Programming  of Multiagent Systems) project main goal is to use Actalk as a teaching tool in particular disciplines of the Computer Science course. Actalk is an actor-oriented programming environment implemented in the Visual Works (ParcPlace Inc.) system/environment. The project participants (undergrad, master, PhD students and lecturers) are put in contact with this environment aiming to use it in the development of various systems. Also, they work the NLP Parse Talk system, entirely implemented in Actalk.</p>
+				<small><strong>Sponsored:</strong><p>FUNPESQUISA-UFSC</p></small>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
-				<h4></h4>
-				<small></small>
-				<p></p>
-				<small><strong></strong><p></p></small>
+				<h4>NALAMAS</h4>
+				<small>Multiagent Systems for NLP</small>
+				<p>The NALAMAS (Multiagent Systems for NLP) project aim is to explore the potential for multiagent systems (MAS) in the domain of Natural Language Processing (NLP). It is a 2-year collaborative project with partners from five universities in Brazil - PUCRS, UNICAMP, UFSC, USP, UFRGS - and one in Portugal - UNL. The project provides grants for studentships, travel support for meetings and conference attendance, computer equipment and software, and bibliographic materials.</p>
+				<small><strong>Sponsored:</strong><p> ProTeM-CC - CNPq</p></small>
 			</div>
 		</div>
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
+				<h4>MicroM</h4>
+				<small>Authoring Tool for Virtual Reality Adventures</small>
+				<p>The MicroM (Authoring Tool for Virtual Reality Adventures) software is an authoring tool for the creation of educational adventures in 3D. The system includes a library of scenarios and objects. MicroM was conceived to allow both teachers and students the authoring of virtual reality environments with a high degree of interactivity for educational purposes in a simple and friendly way. Such environments are constructed under the constructivist paradigm as the users can create virtual worlds in which the exploration and not the instruction is the main form of interaction.</p>
+				<small><strong>Sponsored:</strong><p>PIBIC - CNPq</p></small>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
+				<h4>MVEE</h4>
+				<small></small>
+				<p></p>
+				<small><strong></strong><p></p></small>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
+				<h4>POO-ENG</h4>
+				<small></small>
+				<p></p>
+				<small><strong></strong><p></p></small>
+			</div>
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margens" id="recursos" style="background: #5cd65c;">
 			<div class="col-lg-12 text-center">
 		        <h2>Recursos</h2>
