@@ -199,10 +199,34 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
-				<h4></h4>
-				<small></small>
-				<p></p>
-				<small><strong></strong><p></p></small>
+				<h4>APSMA</h4>
+				<small>Ambientes para Programação de Sistemas Multi-Agente</small><br></br>
+				<p>Este projeto tem como objetivo principal o estudo de um ambiente de programação orientado a atores (Actalk) implementado sob o sistema/Ambiente VisualWorks (ParcPlace Inc.). Como objetivos epsecificos, pretende-se colocar os membros do projeto (estudantes de mestrado, doutorado, graduacao e professores) em contato com o ambiente de programação de atores Actalk. Pretende-se também estudar o sistema de PLN ParseTalk, que foi inteiramente implementado em Actalk. Pretende-se também utilizar do sistema Actalk como ferramenta de ensino em disciplinas especificas do curso de Bacharelado em Ciências da Computação. </p>
+				<small><strong>Apoio:</strong><p>FUNPESQUISA-UFSC</p></small>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
+				<h4>NALAMAS</h4>
+				<small>Sistemas Multi-Agentes Para Processamento De Linguagem Natural </small><br></br>
+				<p>Este projeto busca estudar e analisar a alternativa do uso de sistemas multi-agentes no tratamento da linguagem natural, experimentando a abordagem utilizada no sistema TALISMAN e finalizando com a proposta de uma nova arquitetura que leve em conta os pontos a serem reconsiderados. </p>
+				<small><strong>Apoio:</strong><p>ProTeM-CC - CNPq</p></small>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
+				<h4>MicroM</h4>
+				<small>Ferramenta de Autoria para Adventures em Realidade Virtual </small><br></br>
+				<p>O software MicroM é uma ferramenta de autoria para a criação de adventures educacionais em 3 dimensões a partir de uma biblioteca de cenários e objetos. Este sistema foi concebido para permitir a criação de software educacional, possibilitando a professores e alunos a construção de forma simples e amigável de ambientes baseados em realidade virtual com alto grau de interatividade. Tais ambientes permitem a aplicação do paradigma pedagógico do construtivismo, pois os usuários podem criar mundos virtuais nos quais a exploração, e não a instrução é a principal forma de interação. </p>
+				<small><strong>Apoio:</strong><p>PIBIC-CNPq</p></small>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
+				<h4>MVEE</h4>
+				<small>Micromundos Virtuais para o  Ensino de Engenharia</small><br></br>
+				<p>O objetivo geral deste projeto é a produção de um ambiente geral para produção de "adventures" educativos aplicados ao ensino de engenharia. Como objetivos específicos estão o estudo dos vários sistemas de construção de ambientes interativos, técnicas de animação, interação em rede, realidade virtual, etc. Além disso, pretende-se desenvolver um ambiente específico para uma disciplina eleita, o qual será efetivamente utilizado em sala de aula.</p>
+				<small><strong>Apoio:</strong><p>REESC - REENGE - FINEP</p></small>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
+				<h4>POO-ENG</h4>
+				<small>Programação Orientada a Objetos nas Engenharias </small><br></br>
+				<p>Objetiva modelar e implementar um conjunto de aplicações típicas das engenharias segundo a perspectiva de Programação Orientada a Objetos. Este conjunto de exemplos servirá de base para o ensino de              computação em disciplinas de engenharia segunda a perspectiva de Programação Orientada a Objetos. Eles       visam orientar o engenheiro a modelar a realidade no computador usando a perspectiva de POO.  </p>
+				<small><strong>Apoio:</strong><p>REESC - REENGE - FINEP</p></small>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 				<h4></h4>
@@ -341,7 +365,19 @@ distributed) tasks and development methods for these systems. Such systems model
 			<div class="col-lg-12 text-center">
 		            <h2>Sobre</h2>
 								<hr class="star-light">
-		        </div>	
+					<p>O Laboratório de Sistemas de Conhecimento (LSC) tem como principal objetivo oferecer espaço para pesquisas 
+					multi-disciplinares em Sistemas de Conhecimento. Os resultados destas pesquisas deverão reverter para a comunidade, sendo aplicados em áreas como sistemas de recuperação de informações e sistemas para trabalho cooperativo.
+					Muitas aplicações na área de Sistemas de Conhecimento exigem especialidades provenientes de diferentes áreas da Computação e mesmo de outras ciências. O LSC pretende ser um fórum para a integração destas especialidades
+
+					Endereço para contato:  
+					Prof. Dr. Raul S. Wazlawick  
+					UFSC-CTC-INE-LSC  
+					Cx. P. 476, 88040-900, Florianópolis-SC  
+					Tel: 0xx 48 3317111 
+					Fax: 0xx48 2319770  
+  
+					© 1999 LSC-INE-UFSC</p>			
+		    </div>	
 		</div>
 	</div>
 </div>
