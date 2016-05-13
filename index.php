@@ -13,10 +13,14 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	
-	<style type="text/css">
-		a:link, a:visited, a:active {
-			text-decoration: none;
-		}
+<style type="text/css">
+	a:link, a:visited, a:active {
+		text-decoration: none;
+	}
+	li.publicLI {
+		list-style-type:none;
+   	}
+
 </style>
 	
 </head>
@@ -150,18 +154,25 @@
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 						<h4>Mestrandos</h4>
-						<p>Cristina Elisabeth Ricken </p>
-						<p>Alvaro de Azevedo Diaz</p>
-						<p>Richard G. Vieira </p>
-						<p>Júlio Otuyama </p>
-						<p>Sandro da Silva dos Santos</p>
-						<p>Monica Carapeços Arriada</p>
+						<?php
+							$conexao = mysqli_connect("127.0.0.1","root","","lsc");
+							$dados = mysqli_query($conexao, "select * from mestrandos");
+							
+							while ($produto = mysqli_fetch_array($dados)):
+						?>
+							<p><?= $produto['nome']?></p>
+						<?php endwhile; ?>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 						<h4>Bolsistas ITI</h4>
-						<p>Igor Heidrich </p>
-						<p>Glauber Volkmer </p>
-						<p>Fábio Petrúcio </p>
+						<?php
+							$conexao = mysqli_connect("127.0.0.1","root","","lsc");
+							$dados = mysqli_query($conexao, "select * from bolsistas_iti");
+							
+							while ($produto = mysqli_fetch_array($dados)):
+						?>
+							<p><?= $produto['nome']?></p>
+						<?php endwhile; ?>
 					</div>
 		        </div>	
 		</div>
@@ -198,41 +209,47 @@
 					<small><strong>Apoio:</strong><p> PAPED - CAPES</p></small>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
-				<h4>APSMA</h4>
-				<small>Ambientes para Programação de Sistemas Multi-Agente</small><br></br>
-				<p>Este projeto tem como objetivo principal o estudo de um ambiente de programação orientado a atores (Actalk) implementado sob o sistema/Ambiente VisualWorks (ParcPlace Inc.). Como objetivos epsecificos, pretende-se colocar os membros do projeto (estudantes de mestrado, doutorado, graduacao e professores) em contato com o ambiente de programação de atores Actalk. Pretende-se também estudar o sistema de PLN ParseTalk, que foi inteiramente implementado em Actalk. Pretende-se também utilizar do sistema Actalk como ferramenta de ensino em disciplinas especificas do curso de Bacharelado em Ciências da Computação. </p>
-				<small><strong>Apoio:</strong><p>FUNPESQUISA-UFSC</p></small>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
+					<h4>APSMA</h4>
+					<small>Ambientes para Programação de Sistemas Multi-Agente</small><br></br>
+					<p>Este projeto tem como objetivo principal o estudo de um ambiente de programação orientado a atores (Actalk) implementado sob o sistema/Ambiente VisualWorks (ParcPlace Inc.). Como objetivos epsecificos, pretende-se colocar os membros do projeto (estudantes de mestrado, doutorado, graduacao e professores) em contato com o ambiente de programação de atores Actalk. Pretende-se também estudar o sistema de PLN ParseTalk, que foi inteiramente implementado em Actalk. Pretende-se também utilizar do sistema Actalk como ferramenta de ensino em disciplinas especificas do curso de Bacharelado em Ciências da Computação. </p>
+					<small><strong>Apoio:</strong><p>FUNPESQUISA-UFSC</p></small>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
+					<h4>NALAMAS</h4>
+					<small>Sistemas Multi-Agentes Para Processamento De Linguagem Natural </small><br></br>
+					<p>Este projeto busca estudar e analisar a alternativa do uso de sistemas multi-agentes no tratamento da linguagem natural, experimentando a abordagem utilizada no sistema TALISMAN e finalizando com a proposta de uma nova arquitetura que leve em conta os pontos a serem reconsiderados. </p>
+					<small><strong>Apoio:</strong><p>ProTeM-CC - CNPq</p></small>
+				</div>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
-				<h4>NALAMAS</h4>
-				<small>Sistemas Multi-Agentes Para Processamento De Linguagem Natural </small><br></br>
-				<p>Este projeto busca estudar e analisar a alternativa do uso de sistemas multi-agentes no tratamento da linguagem natural, experimentando a abordagem utilizada no sistema TALISMAN e finalizando com a proposta de uma nova arquitetura que leve em conta os pontos a serem reconsiderados. </p>
-				<small><strong>Apoio:</strong><p>ProTeM-CC - CNPq</p></small>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
+					<h4>MicroM</h4>
+					<small>Ferramenta de Autoria para Adventures em Realidade Virtual </small><br></br>
+					<p>O software MicroM é uma ferramenta de autoria para a criação de adventures educacionais em 3 dimensões a partir de uma biblioteca de cenários e objetos. Este sistema foi concebido para permitir a criação de software educacional, possibilitando a professores e alunos a construção de forma simples e amigável de ambientes baseados em realidade virtual com alto grau de interatividade. Tais ambientes permitem a aplicação do paradigma pedagógico do construtivismo, pois os usuários podem criar mundos virtuais nos quais a exploração, e não a instrução é a principal forma de interação. </p>
+					<small><strong>Apoio:</strong><p>PIBIC-CNPq</p></small>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
+					<h4>MVEE</h4>
+					<small>Micromundos Virtuais para o  Ensino de Engenharia</small><br></br>
+					<p>O objetivo geral deste projeto é a produção de um ambiente geral para produção de "adventures" educativos aplicados ao ensino de engenharia. Como objetivos específicos estão o estudo dos vários sistemas de construção de ambientes interativos, técnicas de animação, interação em rede, realidade virtual, etc. Além disso, pretende-se desenvolver um ambiente específico para uma disciplina eleita, o qual será efetivamente utilizado em sala de aula.</p>
+					<small><strong>Apoio:</strong><p>REESC - REENGE - FINEP</p></small>
+				</div>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
-				<h4>MicroM</h4>
-				<small>Ferramenta de Autoria para Adventures em Realidade Virtual </small><br></br>
-				<p>O software MicroM é uma ferramenta de autoria para a criação de adventures educacionais em 3 dimensões a partir de uma biblioteca de cenários e objetos. Este sistema foi concebido para permitir a criação de software educacional, possibilitando a professores e alunos a construção de forma simples e amigável de ambientes baseados em realidade virtual com alto grau de interatividade. Tais ambientes permitem a aplicação do paradigma pedagógico do construtivismo, pois os usuários podem criar mundos virtuais nos quais a exploração, e não a instrução é a principal forma de interação. </p>
-				<small><strong>Apoio:</strong><p>PIBIC-CNPq</p></small>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
-				<h4>MVEE</h4>
-				<small>Micromundos Virtuais para o  Ensino de Engenharia</small><br></br>
-				<p>O objetivo geral deste projeto é a produção de um ambiente geral para produção de "adventures" educativos aplicados ao ensino de engenharia. Como objetivos específicos estão o estudo dos vários sistemas de construção de ambientes interativos, técnicas de animação, interação em rede, realidade virtual, etc. Além disso, pretende-se desenvolver um ambiente específico para uma disciplina eleita, o qual será efetivamente utilizado em sala de aula.</p>
-				<small><strong>Apoio:</strong><p>REESC - REENGE - FINEP</p></small>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
-				<h4>POO-ENG</h4>
-				<small>Programação Orientada a Objetos nas Engenharias </small><br></br>
-				<p>Objetiva modelar e implementar um conjunto de aplicações típicas das engenharias segundo a perspectiva de Programação Orientada a Objetos. Este conjunto de exemplos servirá de base para o ensino de              computação em disciplinas de engenharia segunda a perspectiva de Programação Orientada a Objetos. Eles       visam orientar o engenheiro a modelar a realidade no computador usando a perspectiva de POO.  </p>
-				<small><strong>Apoio:</strong><p>REESC - REENGE - FINEP</p></small>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
-				<h4></h4>
-				<small></small>
-				<p></p>
-				<small><strong></strong><p></p></small>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
+					<h4>POO-ENG</h4>
+					<small>Programação Orientada a Objetos nas Engenharias </small><br></br>
+					<p>Objetiva modelar e implementar um conjunto de aplicações típicas das engenharias segundo a perspectiva de Programação Orientada a Objetos. Este conjunto de exemplos servirá de base para o ensino de              computação em disciplinas de engenharia segunda a perspectiva de Programação Orientada a Objetos. Eles       visam orientar o engenheiro a modelar a realidade no computador usando a perspectiva de POO.  </p>
+					<small><strong>Apoio:</strong><p>REESC - REENGE - FINEP</p></small>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
+					<h4></h4>
+					<small></small>
+					<p></p>
+					<small><strong></strong><p></p></small>
+				</div>
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margens" id="recursos" style="background: #5cd65c;">
@@ -243,19 +260,14 @@
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<h4>Equipamentos</h4>
 				<ul>
-					<li>02 Estações Power-PC 233  </li>
-					<li>01 microcomputador PC-Pentium II - 400 </li>
-					<li>01 microcomputador PC-Pentium II - 350</li>
-					<li>06 microcomputadores PC-Pentium II - 300</li>
-					<li>13 microcomputadores PC-Celeron - 300</li>
-					<li>01 laptop PC-Pentium MMX-200  </li>
-					<li>02 impressoras jato de tinta</li>
-					<li>02 scanners de mesa </li>
-					<li>02 câmeras de video-conferência </li>
-					<li>01 luva de realidade virtual </li>
-					<li>01 óculos 3D</li>
-					<li>Drives para CD-ROM, DVD e ZIP-Drive </li>
-					<li>Equipamentos conectados a 100Mbits </li>
+				<?php
+					$conexao = mysqli_connect("127.0.0.1","root","","lsc");
+					$dados = mysqli_query($conexao, "select * from equipamentos");
+							
+					while ($produto = mysqli_fetch_array($dados)):
+				?>
+					<li><?= $produto['nome']?></li>
+				<?php endwhile; ?>
 				</ul>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">

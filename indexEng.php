@@ -14,9 +14,12 @@
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	
 	<style type="text/css">
-		a:link, a:visited, a:active {
-			text-decoration: none;
-		}
+	a:link, a:visited, a:active {
+		text-decoration: none;
+	}
+	li.publicLI {
+		list-style-type:none;
+   	}
 </style>
 	
 </head>
@@ -41,7 +44,7 @@
 				<li><a href="#publicacoes">Publications</a></li>
       			</li>
 				<li><a href="#sobre">Sobre</a></li>
-				<li><a href="index.php"><img src="img/eua.png"></span> Português</a></li> 
+				<li><a href="index.php"><img src="img/brasil.png"></span> Português</a></li> 
 			</ul>
 		</div>
 	</div>
@@ -133,18 +136,26 @@
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 						<h4>Masters Students</h4>
-						<p>Cristina Elisabeth Ricken </p>
-						<p>Alvaro de Azevedo Diaz</p>
-						<p>Richard G. Vieira </p>
-						<p>Júlio Otuyama </p>
-						<p>Sandro da Silva dos Santos</p>
-						<p>Monica Carapeços Arriada</p>
+						<?php
+							$conexao = mysqli_connect("127.0.0.1","root","","lsc");
+							$dados = mysqli_query($conexao, "select * from mestrandos");
+							
+							while ($produto = mysqli_fetch_array($dados)):
+						?>
+							<p><?= $produto['nome']?></p>
+						<?php endwhile; ?>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 						<h4>Scholarship ITI</h4>
 						<p>Igor Heidrich </p>
-						<p>Glauber Volkmer </p>
-						<p>Fábio Petrúcio </p>
+						<?php
+							$conexao = mysqli_connect("127.0.0.1","root","","lsc");
+							$dados = mysqli_query($conexao, "select * from bolsistas_iti");
+							
+							while ($produto = mysqli_fetch_array($dados)):
+						?>
+							<p><?= $produto['nome']?></p>
+						<?php endwhile; ?>
 					</div>
 		        </div>	
 		</div>
@@ -168,7 +179,7 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4>MuVISC</h4>
 					<small>Virtual Museum of Santa Catarina Island </small><br></br>
 					<p>The Virtual Museum of Santa Catarina Island will create a virtual museum using the Santa Catarina Island photographs collection. Such collection focus on photographs by the island artists and inhabitants.</p>
@@ -181,36 +192,47 @@
 					<small><strong></strong><p></p></small>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
-				<h4>APSMA</h4>
-				<small>Environments for Programming  of Multiagent Systems</small>
-				<p>The ASPMA (Environments for Programming  of Multiagent Systems) project main goal is to use Actalk as a teaching tool in particular disciplines of the Computer Science course. Actalk is an actor-oriented programming environment implemented in the Visual Works (ParcPlace Inc.) system/environment. The project participants (undergrad, master, PhD students and lecturers) are put in contact with this environment aiming to use it in the development of various systems. Also, they work the NLP Parse Talk system, entirely implemented in Actalk.</p>
-				<small><strong>Sponsored:</strong><p>FUNPESQUISA-UFSC</p></small>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
+					<h4>APSMA</h4>
+					<small>Environments for Programming  of Multiagent Systems</small>
+					<p>The ASPMA (Environments for Programming  of Multiagent Systems) project main goal is to use Actalk as a teaching tool in particular disciplines of the Computer Science course. Actalk is an actor-oriented programming environment implemented in the Visual Works (ParcPlace Inc.) system/environment. The project participants (undergrad, master, PhD students and lecturers) are put in contact with this environment aiming to use it in the development of various systems. Also, they work the NLP Parse Talk system, entirely implemented in Actalk.</p>
+					<small><strong>Sponsored:</strong><p>FUNPESQUISA-UFSC</p></small>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
+					<h4>NALAMAS</h4>
+					<small>Multiagent Systems for NLP</small>
+					<p>The NALAMAS (Multiagent Systems for NLP) project aim is to explore the potential for multiagent systems (MAS) in the domain of Natural Language Processing (NLP). It is a 2-year collaborative project with partners from five universities in Brazil - PUCRS, UNICAMP, UFSC, USP, UFRGS - and one in Portugal - UNL. The project provides grants for studentships, travel support for meetings and conference attendance, computer equipment and software, and bibliographic materials.</p>
+					<small><strong>Sponsored:</strong><p> ProTeM-CC - CNPq</p></small>
+				</div>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
-				<h4>NALAMAS</h4>
-				<small>Multiagent Systems for NLP</small>
-				<p>The NALAMAS (Multiagent Systems for NLP) project aim is to explore the potential for multiagent systems (MAS) in the domain of Natural Language Processing (NLP). It is a 2-year collaborative project with partners from five universities in Brazil - PUCRS, UNICAMP, UFSC, USP, UFRGS - and one in Portugal - UNL. The project provides grants for studentships, travel support for meetings and conference attendance, computer equipment and software, and bibliographic materials.</p>
-				<small><strong>Sponsored:</strong><p> ProTeM-CC - CNPq</p></small>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
+					<h4>MicroM</h4>
+					<small>Authoring Tool for Virtual Reality Adventures</small>
+					<p>The MicroM (Authoring Tool for Virtual Reality Adventures) software is an authoring tool for the creation of educational adventures in 3D. The system includes a library of scenarios and objects. MicroM was conceived to allow both teachers and students the authoring of virtual reality environments with a high degree of interactivity for educational purposes in a simple and friendly way. Such environments are constructed under the constructivist paradigm as the users can create virtual worlds in which the exploration and not the instruction is the main form of interaction.</p>
+					<small><strong>Sponsored:</strong><p>PIBIC - CNPq</p></small>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
+					<h4>MVEE</h4>
+					<small></small>
+					<p></p>
+					<small><strong></strong><p></p></small>
+				</div>
 			</div>
-		</div>
-		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
-				<h4>MicroM</h4>
-				<small>Authoring Tool for Virtual Reality Adventures</small>
-				<p>The MicroM (Authoring Tool for Virtual Reality Adventures) software is an authoring tool for the creation of educational adventures in 3D. The system includes a library of scenarios and objects. MicroM was conceived to allow both teachers and students the authoring of virtual reality environments with a high degree of interactivity for educational purposes in a simple and friendly way. Such environments are constructed under the constructivist paradigm as the users can create virtual worlds in which the exploration and not the instruction is the main form of interaction.</p>
-				<small><strong>Sponsored:</strong><p>PIBIC - CNPq</p></small>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
-				<h4>MVEE</h4>
-				<small></small>
-				<p></p>
-				<small><strong></strong><p></p></small>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
-				<h4>POO-ENG</h4>
-				<small></small>
-				<p></p>
-				<small><strong></strong><p></p></small>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
+					<h4>POO-ENG</h4>
+					<small></small>
+					<p></p>
+					<small><strong></strong><p></p></small>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
+					<h4></h4>
+					<small></small>
+					<p></p>
+					<small><strong></strong><p></p></small>
+				</div>
 			</div>
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margens" id="recursos" style="background: #5cd65c;">
 			<div class="col-lg-12 text-center">
@@ -220,19 +242,14 @@
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<h4>Equipments</h4>
 				<ul>
-					<li>02 Seasons Power-PC 233  </li>
-					<li>01 microcomputer PC-Pentium II - 400 </li>
-					<li>01 microcomputer PC-Pentium II - 350</li>
-					<li>06 microcomputer PC-Pentium II - 300</li>
-					<li>13 microcomputer PC-Celeron - 300</li>
-					<li>01 laptop PC-Pentium MMX-200  </li>
-					<li>02 Inkjet printers</li>
-					<li>02 Flatbed scanners </li>
-					<li>02 Video conferencing cameras </li>
-					<li>01 Virtual reality glove </li>
-					<li>01 3D glasses</li>
-					<li>Drives to CD-ROM, DVD e ZIP-Drive </li>
-					<li>Connected equipment to 100Mbits </li>
+				<?php
+					$conexao = mysqli_connect("127.0.0.1","root","","lsc");
+					$dados = mysqli_query($conexao, "select * from equipamentos");
+						
+					while ($produto = mysqli_fetch_array($dados)):
+				?>
+					<li><?= $produto['nome']?></li>
+				<?php endwhile; ?>
 				</ul>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
