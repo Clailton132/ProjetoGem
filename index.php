@@ -244,6 +244,7 @@
 					<p>Objetiva modelar e implementar um conjunto de aplicações típicas das engenharias segundo a perspectiva de Programação Orientada a Objetos. Este conjunto de exemplos servirá de base para o ensino de              computação em disciplinas de engenharia segunda a perspectiva de Programação Orientada a Objetos. Eles       visam orientar o engenheiro a modelar a realidade no computador usando a perspectiva de POO.  </p>
 					<small><strong>Apoio:</strong><p>REESC - REENGE - FINEP</p></small>
 				</div>
+
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4></h4>
 					<small></small>
@@ -275,7 +276,7 @@
 
 				<img src="img/ctc-imagem.jpg">
 				<p>110m2 alocados no prédio da direção do CTC</p>
-				<p><strong>Mais informações sobre o CTC no link:</strong><a href="http://tvled.egc.ufsc.br/biblioteca/biblioteca/CTC/Final_Institucional_CTC.mp4" title="CTC-UFSC" ><br>Tudo sobre o CTC (clique para ver o vídeo)</a> </p>
+				<p><strong>Mais informações sobre o CTC no link:</strong><a href="http://tvled.egc.ufsc.br/biblioteca/biblioteca/CTC/Final_Institucional_CTC.mp4" title="CTC-UFSC" ><br>(clique para ver o vídeo)</a> </p>
 				<br>
 			</div>
 		</div>
@@ -302,37 +303,33 @@
 				<h3 class="text-center"><u>Outros grupos/labs:</u></h3>
 				<br>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<h4><a href="">Santa Fe Institute</a></h4>
-					<p>The Santa Fe Institute is a private, non-profit, multidisciplinary research and education center, founded in 1984. Since its 
-	founding SFI has devoted itself to creating a new kind of scientific research community, pursuing emerging science.  
-	Operating as a small, visiting institution, SFI seeks to catalyze new collaborative, multidisciplinary projects that break down the barriers between the traditional disciplines, to spread its ideas and methodologies to other individuals and encourage the practical applications of its results. </p>
+					<h4><a href="">Instituto Santa Fé</a></h4>
+					<p>O Instituto Santa Fe é um orgão privado sem fins lucrativos, o centro de investigação e a educação multidisciplinar , fundado em 1984. Desde a sua fundação SFI dedicou-se a criar um novo tipo de comunidade de pesquisa científica, buscando ciência emergente.
+					Operando como uma pequena instituição, visitando, ISF pretende catalisar novos projectos colaborativos e multidisciplinares que quebram as barreiras entre as disciplinas tradicionais, para difundir suas idéias e metodologias para outros indivíduos e incentivar as aplicações práticas de seus resultados.</p>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 					<h4><a href="">The Agent Society</a> </h4>
-					<p>The Agent Society is a new international industry and professional organization established to assist in the widespread 
-	development and emergence of intelligent agent technologies and markets. It's members consist of leading companies and 
-	institutions in the agent field, working together under a non-profit organization aegis.</p>
+					<p> A The Agent Society é uma nova indústria internacional e organização profissional estabelecida para ajudar no desenvolvimento e surgimento de tecnologias de agentes inteligentes e mercados. Seus membros consistem de empresas líderes e instituições no campo agente, trabalhando juntos sob uma organização ágil sem fins lucrativos.</p>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<h4><a href="">The MIT Artificial Intelligence Lab</a> </h4>
-					<p>The MIT Artificial Intelligence Laboratory conducts research in many aspects of intelligence. Their aims are two-fold: to 
-	understand human intelligence at all levels, including reasoning, perception, language, development, learning, and social levels, and to build useful artifacts based on intelligence.</p>
+					<h4><a href="">The MIT - O Laboratório de Inteligência Artificial </a> </h4>
+					<p> O Laboratório de Inteligência Artificial do MIT realiza pesquisas em muitos aspectos da inteligência. Os seus objectivos são duas vertentes: a compreender a inteligência humana em todos os níveis, incluindo o raciocínio, percepção,linguagem ,desenvolvimento, aprendizagem e níveis sociais, e para construir artefatos úteis com base na inteligência.</p>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<h4><a href="">University of Maryland Baltimore County Agent Web</a> </h4>
-					<p>Information and resources about intelligent information agents, intentional agents, software agents, softbots, knowbots,infobots, etc. </p>
+					<h4><a href="">Universidade de Maryland Baltimore County Agent Web</a> </h4>
+					<p> Informações e recursos sobre agentes inteligentes de informação, agentes intencionais, agentes de software, softbots, knowbots, infobots, etc.</p>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<h4><a href="">CRESS - the centre for research on simulation in the social sciences</a>  </h4>
-					<p>CRESS, the Centre for Research on Simulation in the Social Sciences, is supported by the Economic and Social Research Council in order to increase awareness and use of simulation by social scientists. It will draw together and promote current research on the application and benefits of simulation methods across the social sciences.</p>
+					<h4><a href="">CPSCS - Centro de Pesquisa de Simulação nas Ciências Sociais</a>  </h4>
+					<p>CPSCS, o Centro de Investigação sobre Simulação em Ciências Sociais, é apoiado pelo Conselho de Investigação Económica e Social, a fim de aumentar a conscientização e uso de simulação pelos cientistas sociais. Ele vai reunir e promover a investigação em curso sobre a aplicação e os benefícios de métodos de simulação através das ciências sociais.</p>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<h4><a href="">The Multi-agent Systems Research Group of Washington University, St. Louis</a> </h4>
-					<p>The Multiagent Systems Research Group is concerned with designing, analyzing and implementing sophisticated AI systems consisting of multiple agents. Special focus is on the coordination of self-interested agents in open systems.</p>
+					<h4><a href="">The Multi-agent Systems Group Research, da Universidade de Washington, St. Louis</a> </h4>
+					<p>O Grupo de Pesquisa Sistemas Multi-agent Systems está preocupado com a concepção, análise e implementação de sistemas sofisticados de IA constituído por múltiplos agentes. Especial enfoque é sobre a coordenação dos agentes auto- interessado em sistemas abertos.</p>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">

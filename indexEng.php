@@ -254,7 +254,10 @@
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<h4>Physical space</h4>
+				<img src="img/ctc-imagem.jpg">
 				<p>110m2 Allocated in building the direction of the CTC</p>
+				<p><strong>More information about the CTC on the link:</strong><a href="http://tvled.egc.ufsc.br/biblioteca/biblioteca/CTC/Final_Institucional_CTC.mp4" title="CTC-UFSC" ><br>(click to see the video - Only in Portuguese)</a> </p>
+				<br>
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margens" id="publicacoes" >
@@ -363,9 +366,9 @@ distributed) tasks and development methods for these systems. Such systems model
 					Many applications in the field of Knowledge systems require expertise from different areas of computing and even other sciences. The LSC aims to be a forum for the integration of these specialties.
 					<br><br>
 					Contact address:  
-					Prof. Dr. Raul S. Wazlawick  
+					Teacher Dr. Raul S. Wazlawick  
 					UFSC-CTC-INE-LSC  
-					Cx. P. 476, 88040-900, Florianópolis-SC  
+					Cx. P. 476, 88040-900, Florianópolis-SC / BRAZIL - 
 					Tel: 0xx 48 3317111 
 					Fax: 0xx48 2319770  
   					<br><br>
