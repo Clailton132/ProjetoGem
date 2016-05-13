@@ -215,17 +215,17 @@
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4>MVEE</h4>
-					<small></small>
-					<p></p>
-					<small><strong></strong><p></p></small>
+					<small>Virtual microworlds for Engineering Education</small>
+					<p>The overall objective of this project is the production of a general environment for the production of " adventures" educational applied to engineering education . The specific objectives are the study of the various building interactive environments systems , animation techniques , network interaction, virtual reality , etc. In addition, we intend to develop a specific environment for a chosen discipline , which will be effectively used in the classroom.</p>
+					<small><strong>Sponsored:</strong><p>REESC - REENGE - FINEP</p></small>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4>POO-ENG</h4>
-					<small></small>
-					<p></p>
-					<small><strong></strong><p></p></small>
+					<small>Object Oriented Programming in Engineering </small><br></br>
+					<p>Objective model and implement a set of typical applications of engineering from the perspective of Object Oriented Programming . This set of examples will serve as the basis for computer education second engineering disciplines the prospect of Object Oriented Programming . They aim to guide the engineer to model reality on the computer using the prospect of POO.</p>
+					<small><strong>Sponsored:</strong><p>REESC - REENGE - FINEP</p></small>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4></h4>
@@ -359,8 +359,18 @@ distributed) tasks and development methods for these systems. Such systems model
 			<div class="col-lg-12 text-center">
 		            <h2>About</h2>
 								<hr class="star-light">
-
-		        </div>	
+					<p>Knowledge Systems Laboratory (KSL) aims to offer space for multi- disciplinary research in Knowledge Systems . The results of this research should revert to the community , being applied in areas such as information retrieval systems and systems for cooperative work.
+					Many applications in the field of Knowledge systems require expertise from different areas of computing and even other sciences. The LSC aims to be a forum for the integration of these specialties.
+					<br><br>
+					Contact address:  
+					Prof. Dr. Raul S. Wazlawick  
+					UFSC-CTC-INE-LSC  
+					Cx. P. 476, 88040-900, Florianópolis-SC  
+					Tel: 0xx 48 3317111 
+					Fax: 0xx48 2319770  
+  					<br><br>
+					© 1999 LSC-INE-UFSC</p>						
+		    </div>	
 		</div>
 	</div>
 </div>
