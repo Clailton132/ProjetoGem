@@ -80,13 +80,13 @@
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 						<h4>Object Oriented Systems</h4>
-						<p>É um modelo de análise, projeto e programação de sistemas de software baseado na composição e interação entre diversas unidades de software chamadas de objetos.</p>
+						<p>It is a model of analysis, design and programming of software systems based on the composition and interaction between different software units called objects.</p>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 						<h4>Computing in Education</h4>
-						<p>Informática educativa refere -se ao uso do computador e suas ferramentas no âmbito escolar, enquanto recurso pedagógico a ser utilizado pelo profissional docente. Embora o termo informática não seja o mais atual (comum na década de 80), o termo informática educativa continua sendo utilizado pelos profissionais da educação.</p>
+						<p>Educational computing refers to the use of the computer and its tools in schools as educational resource to be used by the teaching professional. Although the term computer is not the most current ( common in the 80s ), the term educational computing continues to be used by the teachers.</p>
 					</div>
 				</div>
 			</div>	
@@ -175,7 +175,7 @@
 					<small><strong>Sponsored:</strong><p> PAPED - CAPES</p></small>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
-					<h4>Mundo dos atores</h4>
+					<h4>World of Actors</h4>
 					<small>Introduction to Object-Oriented Programming</small><br></br>
 					<p>The Actors World project aims to develop an environment that favour the learning process of concepts in the discipline of Introduction to Object-Oriented Programming.</p>
 					<small><strong></strong><p></p></small>
@@ -214,39 +214,39 @@
 			</div>
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margens" id="recursos" style="background: #5cd65c;">
 			<div class="col-lg-12 text-center">
-		        <h2>Recursos</h2>
+		        <h2>Resources</h2>
 		        <hr class="star-light">
 		    </div>	
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-				<h4>Equipamentos</h4>
+				<h4>Equipments</h4>
 				<ul>
-					<li>02 Estações Power-PC 233  </li>
-					<li>01 microcomputador PC-Pentium II - 400 </li>
-					<li>01 microcomputador PC-Pentium II - 350</li>
-					<li>06 microcomputadores PC-Pentium II - 300</li>
-					<li>13 microcomputadores PC-Celeron - 300</li>
+					<li>02 Seasons Power-PC 233  </li>
+					<li>01 microcomputer PC-Pentium II - 400 </li>
+					<li>01 microcomputer PC-Pentium II - 350</li>
+					<li>06 microcomputer PC-Pentium II - 300</li>
+					<li>13 microcomputer PC-Celeron - 300</li>
 					<li>01 laptop PC-Pentium MMX-200  </li>
-					<li>02 impressoras jato de tinta</li>
-					<li>02 scanners de mesa </li>
-					<li>02 câmeras de video-conferência </li>
-					<li>01 luva de realidade virtual </li>
-					<li>01 óculos 3D</li>
-					<li>Drives para CD-ROM, DVD e ZIP-Drive </li>
-					<li>Equipamentos conectados a 100Mbits </li>
+					<li>02 Inkjet printers</li>
+					<li>02 Flatbed scanners </li>
+					<li>02 Video conferencing cameras </li>
+					<li>01 Virtual reality glove </li>
+					<li>01 3D glasses</li>
+					<li>Drives to CD-ROM, DVD e ZIP-Drive </li>
+					<li>Connected equipment to 100Mbits </li>
 				</ul>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-				<h4>Espaço Físico</h4>
-				<p>110m2 alocados no prédio da direção do CTC</p>
+				<h4>Physical space</h4>
+				<p>110m2 Allocated in building the direction of the CTC</p>
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margens" id="publicacoes" >
 			<div class="col-lg-12 text-center">
-		        <h2>Publicações</h2>
+		        <h2>Publications</h2>
 					<hr class="star-light">
 		    </div>
 			<div class="text-center">
-				<h5>Referências sobre a produção científica do LSC podem ser encontradas nas páginas dos professores ligados ao laboratório:</h5>
+				<h5>References to the scientific production of the LSC can be found in the pages of professors to the laboratory:</h5>
 				<ul>
 					<li class="publicLI"><a href="http://http//www.inf.ufsc.br/~edla/">Edla Maria Faust Ramos</a></li>
 					<li class="publicLI"><a href="http://www.inf.ufsc.br/~raul/">Raul Sidnei Wazlawick</a></li>
@@ -256,16 +256,16 @@
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="background: #5cd65c;">
 			<div class="col-lg-12 text-center">
-		        <h2>Veja Também</h2>
+		        <h2>See too</h2>
 		        <hr class="star-light">
 		    </div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="outrosGrupos">
-				<h3 class="text-center"><u>Outros grupos/labs:</u></h3>
+				<h3 class="text-center"><u>Other groups/labs:</u></h3>
 				<br>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 					<h4><a href="">Santa Fe Institute</a></h4>
 					<p>The Santa Fe Institute is a private, non-profit, multidisciplinary research and education center, founded in 1984. Since its 
-	founding SFI has devoted itself to creating a new kind of scientific research community, pursuing emerging science.  
+					founding SFI has devoted itself to creating a new kind of scientific research community, pursuing emerging science.  
 	Operating as a small, visiting institution, SFI seeks to catalyze new collaborative, multidisciplinary projects that break down the barriers between the traditional disciplines, to spread its ideas and methodologies to other individuals and encourage the practical applications of its results. </p>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -340,8 +340,9 @@ distributed) tasks and development methods for these systems. Such systems model
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="sobre">
 			<div class="col-lg-12 text-center">
-		            <h2>Sobre</h2>
+		            <h2>About</h2>
 								<hr class="star-light">
+
 		        </div>	
 		</div>
 	</div>

@@ -260,7 +260,11 @@
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<h4>Espaço Físico</h4>
+
+				<img src="img/ctc-imagem.jpg">
 				<p>110m2 alocados no prédio da direção do CTC</p>
+				<p><strong>Mais informações sobre o CTC no link:</strong><a href="http://tvled.egc.ufsc.br/biblioteca/biblioteca/CTC/Final_Institucional_CTC.mp4" title="CTC-UFSC" ><br>Tudo sobre o CTC (clique para ver o vídeo)</a> </p>
+				<br>
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margens" id="publicacoes" >
@@ -333,7 +337,7 @@
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 					<h4><a href="">DESIRE Research Programme </a></h4>
 					<p>The DESIRE research programme focusses on the study of compositional multi-agent systems for complex (and often 
-distributed) tasks and development methods for these systems. Such systems model and support users in coordinating andperforming complex cooperative tasks (e.g., design projects, distributed process control). </p>
+					distributed) tasks and development methods for these systems. Such systems model and support users in coordinating andperforming complex cooperative tasks (e.g., design projects, distributed process control). </p>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 					<h4><a href="">UBWeb Computational Linguistics Research Group  </a></h4>
@@ -368,14 +372,14 @@ distributed) tasks and development methods for these systems. Such systems model
 					<p>O Laboratório de Sistemas de Conhecimento (LSC) tem como principal objetivo oferecer espaço para pesquisas 
 					multi-disciplinares em Sistemas de Conhecimento. Os resultados destas pesquisas deverão reverter para a comunidade, sendo aplicados em áreas como sistemas de recuperação de informações e sistemas para trabalho cooperativo.
 					Muitas aplicações na área de Sistemas de Conhecimento exigem especialidades provenientes de diferentes áreas da Computação e mesmo de outras ciências. O LSC pretende ser um fórum para a integração destas especialidades
-
+					<br><br>
 					Endereço para contato:  
 					Prof. Dr. Raul S. Wazlawick  
 					UFSC-CTC-INE-LSC  
 					Cx. P. 476, 88040-900, Florianópolis-SC  
 					Tel: 0xx 48 3317111 
 					Fax: 0xx48 2319770  
-  
+  					<br><br>
 					© 1999 LSC-INE-UFSC</p>			
 		    </div>	
 		</div>
