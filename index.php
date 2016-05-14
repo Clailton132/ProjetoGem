@@ -334,29 +334,28 @@
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<h4><a href="">Illinois Genetic Algorithm Laboratory</a>  </h4>
-					<p>The research of the Illinois Genetic Algorithms Laboratory (IlliGAL) centers on the theory and application of genetic algorithms (GAs), search procedures based on the mechanics of natural genetics and natural selection. The Illinois Genetic Algorithms Laboratory's Director is David Goldberg.</p>
+					<h4><a href="">Laboratório Illinois de Algoritmos Genéticos</a>  </h4>
+					<p> A pesquisa do Illinois Algoritmos Genéticos Laboratory (illigal) centra-se na teoria e aplicação de algoritmos genéticos (AGs), procedimentos de busca baseados na mecânica da genética natural e seleção natural. Diretor do Illinois Algoritmos Genéticos do Laboratório é David Goldberg.</p>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<h4><a href="">Complexity On-line</a></h4>
-					<p>Complexity On-line is a scientific information network about complex systems. You will find access to sites, publications (including the Complexity On-line Journal ) and other sources of interest. </p>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<h4><a href="">DESIRE Research Programme </a></h4>
-					<p>The DESIRE research programme focusses on the study of compositional multi-agent systems for complex (and often 
-					distributed) tasks and development methods for these systems. Such systems model and support users in coordinating andperforming complex cooperative tasks (e.g., design projects, distributed process control). </p>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<h4><a href="">UBWeb Computational Linguistics Research Group  </a></h4>
-					<p>Research within the group centers around the developement of systems of automatic acquisition of linguistic knowledge. The recent goal shift in Computational Linguistics has meant the change of small inteligent systems by more basic linguistic tools. One basic concept is the development of automatic or semi-automatic systems of acquisition of linguistic knowledge that make our aims more easily and robustly reached. </p>
+					<h4><a href="">Complexidade On-line</a></h4>
+					<p>Complexidade on-line é uma rede de informação científica sobre sistemas complexos. Você vai encontrar o acesso a sites, publicações (incluindo a complexidade On-line Journal) e de outras fontes de interesse.</p>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<h4><a href="">Centria  </a></h4>
-					<p>The Centro de Inteligência Artificial(CENTRIA) is an institutionalized research centre of the Universidade Nova de Lisboa (UNL). Its main areas of activity are: Knowledge Representation and Reasoning, Logic Programming,  Natural Language, Constraints, Soft Computing and Autonomous Agents, Cognitive Science. <a href="http://www-ssdi.di.fct.unl.pt/~glint/Forum-LP/">(Forum-LP) </a></p>
+					<h4><a href="">DESIRE - Programa de Pesquisa </a></h4>
+					<p>O programa de pesquisa DESIRE concentra-se no estudo de sistemas multi-agente de composição para o complexo (e muitas vezes distribuídos) tarefas e métodos de desenvolvimento para esses sistemas. Modelo de tais sistemas e usuários de apoio na coordenação e performance em tarefas cooperativas complexas (por exemplo: projetos de design, controle de processo distribuído). </p>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					<h4><a href="">UBWeb Grupo de pesquisa de Linguística Computacional </a></h4>
+					<p>A Pesquisa dentro do grupo gira em torno do desenvolvimento de sistemas de aquisição automática de conhecimento linguístico. A recente mudança de objetivo em Linguística Computacional significou a mudança de sistemas inteligentes pequenos por mais ferramentas lingüísticas básicas. Um conceito básico é o desenvolvimento de sistemas automáticos ou semi-automáticos de aquisição de conhecimentos linguísticos que fazem os nossos objetivos mais facilmente e de forma robusta alcançada. </p>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					<h4><a href="">Centria </a></h4>
+					<p> O Centro de Inteligência Artificial (CENTRIA) é um centro de pesquisa institucionalizada da Universidade Nova de Lisboa (UNL) . Suas principais áreas de atuação são: representação de conhecimento, Programação em Lógica, Linguagem Natural, Restrições, Soft Computing e Agentes Autônomos, Ciência Cognitiva. <a href="http://www-ssdi.di.fct.unl.pt/~glint/Forum-LP/">(Forum-LP) </a></p>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 					<h4><a href="">Catálogo da SINTEF  </a></h4>
@@ -365,8 +364,9 @@
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<h4><a href="">IRCS</a></h4>
-					<p>The Institute for Research in Cognitive Science at the University of Pennsylvania fosters the development of a science of the human mind through the interaction of investigators from the disciplines of Linguistics, Mathematical Logic, Philosophy, Psychology, Computer Science, and Neuroscience.  </p>
+					<h4><a href="">IPCC</a><br>
+						<small><strong>IRCS </strong>- The Institute for Research in Cognitive Science at the University of Pennsylvania</small></h4>
+					<p>O Instituto de Pesquisa em Ciência Cognitiva da Universidade da Pensilvânia, promove o desenvolvimento de uma ciência da mente humana através da interação de pesquisadores das disciplinas de Linguística, Lógica Matemática, Filosofia, Psicologia, Ciência da Computação, e Neurociência. </p>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 					<h4><a href=""></a></h4>
