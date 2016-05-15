@@ -43,7 +43,7 @@
 				<li><a href="#recursos">Resources</a></li>
 				<li><a href="#publicacoes">Publications</a></li>
       			</li>
-				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="#sobre">About</a></li>
 				<li><a href="index.php"><img src="img/brasil.png"></span> Português</a></li> 
 			</ul>
 		</div>
@@ -167,13 +167,13 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4>MuseuVirtual</h4>
-					<small></small><br></br>
+					<small>3D Virtual Museum</small><br><br>
 					<p>The museuVirtual project aims to develop an authoring tool for the collaborative building of museums in virtual reality. In such museums 3D objects and/or images will be exposed and available to be directly explored using non immersive virtual reality - through the mouse and the keyboard. When accessible devices such as HMDs and gloves that allow immersive virtual reality can be used. The objects also will be manipulated by the museum visitor trough pre-defined commands similarly as in an adventure game. Moreover, the authoring tool will allow the creation of virtual guides or   bots that have knowledge about both the exhibited objects and the visitors themselves.</p>
 					<small><strong>Sponsored:</strong><p> ProTeM-CC - CNPq</p></small>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4>AgroREDE</h4>
-					<small>Project articulation of rural actors in the state of Santa Catarina</small><br></br>
+					<small>Project articulation of rural actors in the state of Santa Catarina</small><br><br>
 					<p>This project aims to structure a network of telematic services that articulates the diverse rural actors in particular those ones related to the family agriculture system in the State of Santa Catarina, Brazil. The underlying hypothesis is that the services provided will improve the life conditions of the families involved due to the sustainable development of their productive potential. This improvement is achieved with the access to information concerning production techniques and marketing. This network should share its problems and solutions, establishing joint strategies for the production and trade.</p>
 					<small><strong></strong><p></p></small>
 				</div>
@@ -181,13 +181,13 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4>MuVISC</h4>
-					<small>Virtual Museum of Santa Catarina Island </small><br></br>
+					<small>Virtual Museum of Santa Catarina Island </small><br><br>
 					<p>The Virtual Museum of Santa Catarina Island will create a virtual museum using the Santa Catarina Island photographs collection. Such collection focus on photographs by the island artists and inhabitants.</p>
 					<small><strong>Sponsored:</strong><p> PAPED - CAPES</p></small>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4>World of Actors</h4>
-					<small>Introduction to Object-Oriented Programming</small><br></br>
+					<small>Introduction to Object-Oriented Programming</small><br><br>
 					<p>The Actors World project aims to develop an environment that favour the learning process of concepts in the discipline of Introduction to Object-Oriented Programming.</p>
 					<small><strong></strong><p></p></small>
 				</div>
@@ -195,13 +195,13 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4>APSMA</h4>
-					<small>Environments for Programming  of Multiagent Systems</small>
+					<small>Environments for Programming  of Multiagent Systems</small><br><br>
 					<p>The ASPMA (Environments for Programming  of Multiagent Systems) project main goal is to use Actalk as a teaching tool in particular disciplines of the Computer Science course. Actalk is an actor-oriented programming environment implemented in the Visual Works (ParcPlace Inc.) system/environment. The project participants (undergrad, master, PhD students and lecturers) are put in contact with this environment aiming to use it in the development of various systems. Also, they work the NLP Parse Talk system, entirely implemented in Actalk.</p>
 					<small><strong>Sponsored:</strong><p>FUNPESQUISA-UFSC</p></small>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4>NALAMAS</h4>
-					<small>Multiagent Systems for NLP</small>
+					<small>Multiagent Systems for NLP</small><br><br>
 					<p>The NALAMAS (Multiagent Systems for NLP) project aim is to explore the potential for multiagent systems (MAS) in the domain of Natural Language Processing (NLP). It is a 2-year collaborative project with partners from five universities in Brazil - PUCRS, UNICAMP, UFSC, USP, UFRGS - and one in Portugal - UNL. The project provides grants for studentships, travel support for meetings and conference attendance, computer equipment and software, and bibliographic materials.</p>
 					<small><strong>Sponsored:</strong><p> ProTeM-CC - CNPq</p></small>
 				</div>
@@ -209,13 +209,13 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4>MicroM</h4>
-					<small>Authoring Tool for Virtual Reality Adventures</small>
+					<small>Authoring Tool for Virtual Reality Adventures</small><br><br>
 					<p>The MicroM (Authoring Tool for Virtual Reality Adventures) software is an authoring tool for the creation of educational adventures in 3D. The system includes a library of scenarios and objects. MicroM was conceived to allow both teachers and students the authoring of virtual reality environments with a high degree of interactivity for educational purposes in a simple and friendly way. Such environments are constructed under the constructivist paradigm as the users can create virtual worlds in which the exploration and not the instruction is the main form of interaction.</p>
 					<small><strong>Sponsored:</strong><p>PIBIC - CNPq</p></small>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4>MVEE</h4>
-					<small>Virtual microworlds for Engineering Education</small>
+					<small>Virtual microworlds for Engineering Education</small><br><br>
 					<p>The overall objective of this project is the production of a general environment for the production of " adventures" educational applied to engineering education . The specific objectives are the study of the various building interactive environments systems , animation techniques , network interaction, virtual reality , etc. In addition, we intend to develop a specific environment for a chosen discipline , which will be effectively used in the classroom.</p>
 					<small><strong>Sponsored:</strong><p>REESC - REENGE - FINEP</p></small>
 				</div>
@@ -223,7 +223,7 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4>POO-ENG</h4>
-					<small>Object Oriented Programming in Engineering </small><br></br>
+					<small>Object Oriented Programming in Engineering </small><br><br>
 					<p>Objective model and implement a set of typical applications of engineering from the perspective of Object Oriented Programming . This set of examples will serve as the basis for computer education second engineering disciplines the prospect of Object Oriented Programming . They aim to guide the engineer to model reality on the computer using the prospect of POO.</p>
 					<small><strong>Sponsored:</strong><p>REESC - REENGE - FINEP</p></small>
 				</div>
