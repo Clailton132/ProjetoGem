@@ -12,6 +12,7 @@
 	<!-- JS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/visual.js"></script>
 	
 	<!-- Icone Page -->
 	<link rel="shortcut icon" href="img/lsc2.ico">
@@ -20,7 +21,7 @@
 </style>
 	
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 <!-- NAVBAR -->
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
@@ -34,12 +35,12 @@
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav navbar-right">
-				<li class="active"><a href="#atuacao">Atuação</a></li>
-				<li><a href="#pessoas">Pessoas</a></li>
-				<li><a href="#projetos">Projetos</a></li>
-				<li><a href="#recursos">Recursos</a></li>
-				<li><a href="#publicacoes">Publicações</a></li>
-				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#veja">Veja também <span class="caret"></span></a>
+				<li class="page-scroll active"><a href="#atuacao">Atuação</a></li>
+				<li class="page-scroll"><a href="#pessoas">Pessoas</a></li>
+				<li class="page-scroll"><a href="#projetos">Projetos</a></li>
+				<li class="page-scroll"><a href="#recursos">Recursos</a></li>
+				<li class="page-scroll"><a href="#publicacoes">Publicações</a></li>
+				<li class="page-scroll dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#veja">Veja também <span class="caret"></span></a>
         			<ul class="dropdown-menu">
           				<li><a href="#veja">Outros labs</a></li>
           				<li><a href="#veja">Pessoas da IA</a></li>
@@ -47,7 +48,7 @@
           				<li><a href="#veja">Disciplinas IA/UFSC</a></li>
         			</ul>
       			</li>
-				<li><a href="#sobre">Sobre</a></li>
+				<li class="page-scroll"><a href="#sobre">Sobre</a></li>
 				<li><a href="indexEng.php"><img src="img/eua.png"></span> English</a></li> 
 			</ul>
 		</div>
@@ -304,7 +305,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="background: #5cd65c;">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="background: #5cd65c;" id="veja">
 			<div class="col-lg-12 text-center">
 		        <h2>Veja Também</h2>
 		        <hr class="star-light">
@@ -406,14 +407,4 @@
 </div>
 
 </body>
-<script type="text/javascript">
-$(document).ready(function(){
-  $('#slider1').bxSlider({
-    slideWidth: 200,
-    minSlides: 2,
-    maxSlides: 3,
-    slideMargin: 10
-  });
-});
-</script>
 </html>

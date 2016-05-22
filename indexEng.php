@@ -12,12 +12,16 @@
 	<!-- JS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/visual.js"></script>
+	
+	<!-- Icone Page -->
+	<link rel="shortcut icon" href="img/lsc2.ico">
 	
 <style type="text/css">
 </style>
 	
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 <!-- NAVBAR -->
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
@@ -36,7 +40,7 @@
 				<li><a href="#projetos">Projects</a></li>
 				<li><a href="#recursos">Resources</a></li>
 				<li><a href="#publicacoes">Publications</a></li>
-      			</li>
+      			<li><a href="#veja">See too</a></li>
 				<li><a href="#sobre">About</a></li>
 				<li><a href="index.php"><img src="img/brasil.png"></span> Português</a></li> 
 			</ul>
@@ -279,7 +283,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="background: #5cd65c;">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="background: #5cd65c;" id="veja">
 			<div class="col-lg-12 text-center">
 		        <h2>See too</h2>
 		        <hr class="star-light">
