@@ -13,19 +13,10 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	
-<style type="text/css">
-	a:link, a:visited, a:active {
-		text-decoration: none;
-	}
-	li.publicLI {
-		list-style-type:none;
-   	}
+	<!-- Icone Page -->
+	<link rel="shortcut icon" href="img/lsc2.ico">
 	
-	.pessoas {
-		width: 30em;
-		overflow-x: auto;
-		white-space: nowrap;
-	}
+<style type="text/css">
 </style>
 	
 </head>
@@ -119,9 +110,12 @@
 		</div>	
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margens" id="slider1" style="background: #5cd65c;">
 			<div class="col-lg-12 text-center" id="pessoas">
-		            <h2>Pessoas</h2>
-		            <hr class="star-light">
-					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+		        <h2>Pessoas</h2>
+		        <hr class="star-light">
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
 						<h4>Professores</h4>
 						<!-- Função php que lista a url e nome dos professores -->
 						<?php
@@ -133,7 +127,7 @@
 						<a href="<?= $produto['url']?>"><?= $produto['nome']?></a><br>
 						<?php endwhile; ?>
 					</div>
-					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<div class="item">
 						<h4>Bolsistas DTI</h4>
 						<!--Função php que lista os bolsistas -->
 						<?php
@@ -142,22 +136,22 @@
 							
 							while ($produto = mysqli_fetch_array($dados)):
 						?>
-							<p><?= $produto['nome']?></p>
+						<p><?= $produto['nome']?></p>
 						<?php endwhile; ?>
 					</div>
-					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<div class="item">
 						<h4>Doutorandos</h4>
 						<!-- Função php que lista os doutorandos -->
 						<?php
 							$conexao = mysqli_connect("127.0.0.1","root","","lsc");
 							$dados = mysqli_query($conexao, "select * from doutorandos");
-							
+								
 							while ($produto = mysqli_fetch_array($dados)):
 						?>
-							<p><?= $produto['nome']?></p>
+						<p><?= $produto['nome']?></p>
 						<?php endwhile; ?>
 					</div>
-					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<div class="item">
 						<h4>Mestrandos</h4>
 						<?php
 							$conexao = mysqli_connect("127.0.0.1","root","","lsc");
@@ -165,22 +159,33 @@
 							
 							while ($produto = mysqli_fetch_array($dados)):
 						?>
-							<p><?= $produto['nome']?></p>
+						<p><?= $produto['nome']?></p>
 						<?php endwhile; ?>
 					</div>
-					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<div class="item">
 						<h4>Bolsistas ITI</h4>
 						<?php
 							$conexao = mysqli_connect("127.0.0.1","root","","lsc");
 							$dados = mysqli_query($conexao, "select * from bolsistas_iti");
-							
+								
 							while ($produto = mysqli_fetch_array($dados)):
 						?>
-							<p><?= $produto['nome']?></p>
+						<p><?= $produto['nome']?></p>
 						<?php endwhile; ?>
 					</div>
-		        </div>	
+						 <!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+				</a>
+			</div>
 		</div>
+	</div>	
+	</div>
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margens" id="projetos" >
 			<div class="col-lg-12 text-center">
 		        <h2>Projetos</h2>

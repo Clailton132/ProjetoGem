@@ -13,13 +13,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	
-	<style type="text/css">
-	a:link, a:visited, a:active {
-		text-decoration: none;
-	}
-	li.publicLI {
-		list-style-type:none;
-   	}
+<style type="text/css">
 </style>
 	
 </head>
@@ -98,66 +92,77 @@
 			<div class="col-lg-12 text-center" id="pessoas" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
 		            <h2>Staff</h2>
 		            <hr class="star-light">
-					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-						<h4>Professors</h4>
-						<!-- Função php que lista a url e nome dos professores -->
-						<?php
-							$conexao = mysqli_connect("127.0.0.1","root","","lsc");
-							$dados = mysqli_query($conexao, "select * from professores");
-							
-							while ($produto = mysqli_fetch_array($dados)):
-						?>
-						<a href="<?= $produto['url']?>"><?= $produto['nome']?></a><br>
-						<?php endwhile; ?>
-					</div>
-					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-						<h4>Scholarship DTI</h4>
-						<!--Função php que lista os bolsistas -->
-						<?php
-							$conexao = mysqli_connect("127.0.0.1","root","","lsc");
-							$dados = mysqli_query($conexao, "select * from bolsistas");
-							
-							while ($produto = mysqli_fetch_array($dados)):
-						?>
-							<p><?= $produto['nome']?></p>
-						<?php endwhile; ?>
-					</div>
-					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-						<h4>PhD Students</h4>
-						<!-- Função php que lista os doutorandos -->
-						<?php
-							$conexao = mysqli_connect("127.0.0.1","root","","lsc");
-							$dados = mysqli_query($conexao, "select * from doutorandos");
-							
-							while ($produto = mysqli_fetch_array($dados)):
-						?>
-							<p><?= $produto['nome']?></p>
-						<?php endwhile; ?>
-					</div>
-					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-						<h4>Masters Students</h4>
-						<?php
-							$conexao = mysqli_connect("127.0.0.1","root","","lsc");
-							$dados = mysqli_query($conexao, "select * from mestrandos");
-							
-							while ($produto = mysqli_fetch_array($dados)):
-						?>
-							<p><?= $produto['nome']?></p>
-						<?php endwhile; ?>
-					</div>
-					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-						<h4>Scholarship ITI</h4>
-						<p>Igor Heidrich </p>
-						<?php
-							$conexao = mysqli_connect("127.0.0.1","root","","lsc");
-							$dados = mysqli_query($conexao, "select * from bolsistas_iti");
-							
-							while ($produto = mysqli_fetch_array($dados)):
-						?>
-							<p><?= $produto['nome']?></p>
-						<?php endwhile; ?>
-					</div>
-		        </div>	
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<h4>Professors</h4>
+								<!-- Função php que lista a url e nome dos professores -->
+								<?php
+									$conexao = mysqli_connect("127.0.0.1","root","","lsc");
+									$dados = mysqli_query($conexao, "select * from professores");
+									
+									while ($produto = mysqli_fetch_array($dados)):
+								?>
+								<a href="<?= $produto['url']?>"><?= $produto['nome']?></a><br>
+								<?php endwhile; ?>
+							</div>
+							<div class="item">
+								<h4>Scholarship DTI</h4>
+								<!--Função php que lista os bolsistas -->
+								<?php
+									$conexao = mysqli_connect("127.0.0.1","root","","lsc");
+									$dados = mysqli_query($conexao, "select * from bolsistas");
+									
+									while ($produto = mysqli_fetch_array($dados)):
+								?>
+									<p><?= $produto['nome']?></p>
+								<?php endwhile; ?>
+							</div>
+							<div class="item">
+								<h4>PhD Students</h4>
+								<!-- Função php que lista os doutorandos -->
+								<?php
+									$conexao = mysqli_connect("127.0.0.1","root","","lsc");
+									$dados = mysqli_query($conexao, "select * from doutorandos");
+									
+									while ($produto = mysqli_fetch_array($dados)):
+								?>
+									<p><?= $produto['nome']?></p>
+								<?php endwhile; ?>
+							</div>
+							<div class="item">
+								<h4>Masters Students</h4>
+								<?php
+									$conexao = mysqli_connect("127.0.0.1","root","","lsc");
+									$dados = mysqli_query($conexao, "select * from mestrandos");
+									
+									while ($produto = mysqli_fetch_array($dados)):
+								?>
+									<p><?= $produto['nome']?></p>
+								<?php endwhile; ?>
+							</div>
+								<div class="item">
+								<h4>Scholarship ITI</h4>
+								<?php
+									$conexao = mysqli_connect("127.0.0.1","root","","lsc");
+									$dados = mysqli_query($conexao, "select * from bolsistas_iti");
+									
+									while ($produto = mysqli_fetch_array($dados)):
+								?>
+									<p><?= $produto['nome']?></p>
+								<?php endwhile; ?>
+							</div>
+							<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</div>	
+			</div>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margens" id="projetos" >
 			<div class="col-lg-12 text-center">

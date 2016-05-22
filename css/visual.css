@@ -1,11 +1,10 @@
-
-	h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-	}
+}
 
-	hr.star-light,hr.star-primary {
+hr.star-light,hr.star-primary {
     margin: 35px auto 50px;
     padding: 0;
     max-width: 250px;
@@ -27,4 +26,10 @@ header img {
 	padding-bottom: 50px;
     display: block;
     margin: 0 auto 20px;
+}
+a:link, a:visited, a:active {
+	text-decoration: none;
+}
+li.publicLI {
+	list-style-type:none;
 }
