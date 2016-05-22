@@ -20,7 +20,12 @@
 	li.publicLI {
 		list-style-type:none;
    	}
-
+	
+	.pessoas {
+		width: 30em;
+		overflow-x: auto;
+		white-space: nowrap;
+	}
 </style>
 	
 </head>
@@ -112,8 +117,8 @@
 				</div>
 			</div>	
 		</div>	
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margens" id="pessoas" style="background: #5cd65c;">
-			<div class="col-lg-12 text-center" id="pessoas" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margens" id="slider1" style="background: #5cd65c;">
+			<div class="col-lg-12 text-center" id="pessoas">
 		            <h2>Pessoas</h2>
 		            <hr class="star-light">
 					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
@@ -397,5 +402,13 @@
 
 </body>
 <script type="text/javascript">
+$(document).ready(function(){
+  $('#slider1').bxSlider({
+    slideWidth: 200,
+    minSlides: 2,
+    maxSlides: 3,
+    slideMargin: 10
+  });
+});
 </script>
 </html>
