@@ -67,13 +67,13 @@
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 						<h4>Sistemas Multi-Agentes</h4>
-						<!-- <small></small><br></br> -->
+						<!-- <small></small><br><br> -->
 						<p>Os Sistemas Multiagentes (SMA) formam uma sub-área da Inteligência artificial Distribuída e concentram-se no estudo de agentes autônomos em um universo multiagente. Para os SMA, o termo autônomo designa o fato de que os agentes têm uma existência própria, independente da existência de outros agentes.</p>
 						<small><strong></strong><p></p></small>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 						<h4>Processamento de Linguagem Natural</h4>
-						<!-- <small></small><br></br> -->
+						<!-- <small></small><br><br> -->
 						<p>é uma subárea da inteligência artificial e da linguística que estuda os problemas da geração e compreensão automática de línguas humanas naturais. Sistemas de geração de linguagem natural convertem informação de bancos de dados de computadores em linguagem normalmente compreensível ao ser humano, e sistemas de compreensão de linguagem natural convertem ocorrências de linguagem humana em representações mais formais, mais facilmente manipuláveis por programas de computador.</p>
 						<small><strong></strong><p></p></small>
 					</div>
@@ -81,13 +81,13 @@
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 						<h4>Realidade Virtual</h4>
-						<!-- <small></small><br></br> -->
+						<!-- <small></small><br><br> -->
 						<p>Realidade virtual é uma tecnologia de interface avançada entre um usuário e um sistema operacional. O objetivo dessa tecnologia é recriar ao máximo a sensação de realidade para um indivíduo, levando-o a adotar essa interação como uma de suas realidades temporais</p>
 						<small><strong></strong><p></p></small>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 						<h4>Sistemas Orientados a Objetos</h4>
-						<!-- <small></small><br></br> -->
+						<!-- <small></small><br><br> -->
 						<p>É um modelo de análise, projeto e programação de sistemas de software baseado na composição e interação entre diversas unidades de software chamadas de objetos.</p>
 						<small><strong></strong><p></p></small>
 					</div>
@@ -95,7 +95,7 @@
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 						<h4>Informática na Educação</h4>
-						<!-- <small></small><br></br> -->
+						<!-- <small></small><br><br> -->
 						<p>Informática educativa refere -se ao uso do computador e suas ferramentas no âmbito escolar, enquanto recurso pedagógico a ser utilizado pelo profissional docente. Embora o termo informática não seja o mais atual (comum na década de 80), o termo informática educativa continua sendo utilizado pelos profissionais da educação.</p>
 						<small><strong></strong><p></p></small>
 					</div>
@@ -188,13 +188,13 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4>Museu virtual</h4>
-					<small>Ferramenta de Autoria para a Construção Colaborativa de Museus em Realidade Virtual</small><br></br>
+					<small>Ferramenta de Autoria para a Construção Colaborativa de Museus em Realidade Virtual</small><br><br>
 					<p>O objetivo do projeto museuVirtual é o desenvolvimento de uma ferramenta de autoria para a construção colaborativa de museus em realidade virtual nos quais imagens e objetos 3D possam ser expostos. Tais objetos e imagens podem ser explorados diretamente, através do mouse e teclado (realidade virtual não imersiva) e também, havendo disponibilidade, através de dispositivos de realidade virtual como luva e capacete (realidade virtual imersiva). Os objetos podem também ser manipulados pelo visitante do museu através de comandos, ao espírito dos adventure games. Além disso, a ferramenta permite a criação de guias virtuais ou bots com conhecimento sobre os objetos em exposição e sobre os próprios visitantes. </p>
 					<small><strong>Apoio:</strong><p> ProTeM-CC - CNPq</p></small>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4>AgroREDE</h4>
-					<small>Projeto de articulação de atores rurais no estado de Santa Catarina </small><br></br>
+					<small>Projeto de articulação de atores rurais no estado de Santa Catarina </small><br><br>
 					<p>O objetivo principal deste projeto é estruturar uma rede de serviços de telemática que articule os diversos atores rurais, sobretudo aqueles ligados à agricultura familiar de SC. A hipótese básica é a de que tais serviços devem promover a melhoria da qualidade de vida destas famílias a partir do desenvolvimento sustentável do seu potencial produtivo. Isto porque além da divulgação de informações técnicas de produção e de mercado, esta rede deve permitir que tais atores compartilhem seus problemas e soluções, estabelecendo estratégias conjuntas de produção e comercialização dos seus produtos.</p>
 					<small><strong></strong><p></p></small>
 				</div>
@@ -202,13 +202,13 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4>Mundo dos atores</h4>
-					<small>Introdução à Programação Orientada a Objetos </small><br></br>
+					<small>Introdução à Programação Orientada a Objetos </small><br><br>
 					<p>Este projeto busca desenvolver um ambiente que favoreça o processo de aprendizagem dos conceitos da programação Orientada a Objetos. </p>
 					<small><strong></strong><p></p></small>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4>MuVISC</h4>
-					<small>Museu Virtual da Ilha de Santa Catarina </small><br></br>
+					<small>Museu Virtual da Ilha de Santa Catarina </small><br><br>
 					<p>Este projeto propõe a criação de um museu virtual que reuna o acervo fotográfico produzido sobre a Ilha de Santa Catarina. O acervo será criado através de imagens produzidas por artistas e habitantes da ilha.  </p>
 					<small><strong>Apoio:</strong><p> PAPED - CAPES</p></small>
 				</div>
@@ -216,13 +216,13 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4>APSMA</h4>
-					<small>Ambientes para Programação de Sistemas Multi-Agente</small><br></br>
+					<small>Ambientes para Programação de Sistemas Multi-Agente</small><br><br>
 					<p>Este projeto tem como objetivo principal o estudo de um ambiente de programação orientado a atores (Actalk) implementado sob o sistema/Ambiente VisualWorks (ParcPlace Inc.). Como objetivos epsecificos, pretende-se colocar os membros do projeto (estudantes de mestrado, doutorado, graduacao e professores) em contato com o ambiente de programação de atores Actalk. Pretende-se também estudar o sistema de PLN ParseTalk, que foi inteiramente implementado em Actalk. Pretende-se também utilizar do sistema Actalk como ferramenta de ensino em disciplinas especificas do curso de Bacharelado em Ciências da Computação. </p>
 					<small><strong>Apoio:</strong><p>FUNPESQUISA-UFSC</p></small>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4>NALAMAS</h4>
-					<small>Sistemas Multi-Agentes Para Processamento De Linguagem Natural </small><br></br>
+					<small>Sistemas Multi-Agentes Para Processamento De Linguagem Natural </small><br><br>
 					<p>Este projeto busca estudar e analisar a alternativa do uso de sistemas multi-agentes no tratamento da linguagem natural, experimentando a abordagem utilizada no sistema TALISMAN e finalizando com a proposta de uma nova arquitetura que leve em conta os pontos a serem reconsiderados. </p>
 					<small><strong>Apoio:</strong><p>ProTeM-CC - CNPq</p></small>
 				</div>
@@ -230,13 +230,13 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4>MicroM</h4>
-					<small>Ferramenta de Autoria para Adventures em Realidade Virtual </small><br></br>
+					<small>Ferramenta de Autoria para Adventures em Realidade Virtual </small><br><br>
 					<p>O software MicroM é uma ferramenta de autoria para a criação de adventures educacionais em 3 dimensões a partir de uma biblioteca de cenários e objetos. Este sistema foi concebido para permitir a criação de software educacional, possibilitando a professores e alunos a construção de forma simples e amigável de ambientes baseados em realidade virtual com alto grau de interatividade. Tais ambientes permitem a aplicação do paradigma pedagógico do construtivismo, pois os usuários podem criar mundos virtuais nos quais a exploração, e não a instrução é a principal forma de interação. </p>
 					<small><strong>Apoio:</strong><p>PIBIC-CNPq</p></small>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4>MVEE</h4>
-					<small>Micromundos Virtuais para o  Ensino de Engenharia</small><br></br>
+					<small>Micromundos Virtuais para o  Ensino de Engenharia</small><br><br>
 					<p>O objetivo geral deste projeto é a produção de um ambiente geral para produção de "adventures" educativos aplicados ao ensino de engenharia. Como objetivos específicos estão o estudo dos vários sistemas de construção de ambientes interativos, técnicas de animação, interação em rede, realidade virtual, etc. Além disso, pretende-se desenvolver um ambiente específico para uma disciplina eleita, o qual será efetivamente utilizado em sala de aula.</p>
 					<small><strong>Apoio:</strong><p>REESC - REENGE - FINEP</p></small>
 				</div>
@@ -244,7 +244,7 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projetos">
 					<h4>POO-ENG</h4>
-					<small>Programação Orientada a Objetos nas Engenharias </small><br></br>
+					<small>Programação Orientada a Objetos nas Engenharias </small><br><br>
 					<p>Objetiva modelar e implementar um conjunto de aplicações típicas das engenharias segundo a perspectiva de Programação Orientada a Objetos. Este conjunto de exemplos servirá de base para o ensino de              computação em disciplinas de engenharia segunda a perspectiva de Programação Orientada a Objetos. Eles       visam orientar o engenheiro a modelar a realidade no computador usando a perspectiva de POO.  </p>
 					<small><strong>Apoio:</strong><p>REESC - REENGE - FINEP</p></small>
 				</div>
@@ -292,7 +292,7 @@
 			<div class="text-center">
 				<h5>Referências sobre a produção científica do LSC podem ser encontradas nas páginas dos professores ligados ao laboratório:</h5>
 				<ul>
-					<li class="publicLI"><a href="http://http//www.inf.ufsc.br/~edla/">Edla Maria Faust Ramos</a></li>
+					<li class="publicLI"><a href="http://www.inf.ufsc.br/~edla/">Edla Maria Faust Ramos</a></li>
 					<li class="publicLI"><a href="http://www.inf.ufsc.br/~raul/">Raul Sidnei Wazlawick</a></li>
 					<li class="publicLI"><a href="http://www.inf.ufsc.br/~mariani/">Antonio Carlos Mariani</a></li>
 				</ul>
@@ -307,7 +307,7 @@
 				<h3 class="text-center"><u>Outros grupos/labs:</u></h3>
 				<br>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<h4><a href="">Instituto Santa Fé</a></h4>
+					<h4><a href="http://santafe.edu/">Instituto Santa Fé</a></h4>
 					<p>O Instituto Santa Fe é um orgão privado sem fins lucrativos, o centro de investigação e a educação multidisciplinar , fundado em 1984. Desde a sua fundação SFI dedicou-se a criar um novo tipo de comunidade de pesquisa científica, buscando ciência emergente.
 					Operando como uma pequena instituição, visitando, ISF pretende catalisar novos projectos colaborativos e multidisciplinares que quebram as barreiras entre as disciplinas tradicionais, para difundir suas idéias e metodologias para outros indivíduos e incentivar as aplicações práticas de seus resultados.</p>
 				</div>

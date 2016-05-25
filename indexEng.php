@@ -277,7 +277,7 @@
 			<div class="text-center">
 				<h5>References to the scientific production of the LSC can be found in the pages of professors to the laboratory:</h5>
 				<ul>
-					<li class="publicLI"><a href="http://http//www.inf.ufsc.br/~edla/">Edla Maria Faust Ramos</a></li>
+					<li class="publicLI"><a href="http://www.inf.ufsc.br/~edla/">Edla Maria Faust Ramos</a></li>
 					<li class="publicLI"><a href="http://www.inf.ufsc.br/~raul/">Raul Sidnei Wazlawick</a></li>
 					<li class="publicLI"><a href="http://www.inf.ufsc.br/~mariani/">Antonio Carlos Mariani</a></li>
 				</ul>
@@ -311,7 +311,7 @@
 	understand human intelligence at all levels, including reasoning, perception, language, development, learning, and social levels, and to build useful artifacts based on intelligence.</p>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<h4><a href="">University of Maryland Baltimore County Agent Web</a> </h4>
+					<h4><a href="">University of Maryland Baltimore County Agent Web</a></h4>
 					<p>Information and resources about intelligent information agents, intentional agents, software agents, softbots, knowbots,infobots, etc. </p>
 				</div>
 			</div>
