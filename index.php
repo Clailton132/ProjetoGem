@@ -40,14 +40,7 @@
 				<li class="page-scroll"><a href="#projetos">Projetos</a></li>
 				<li class="page-scroll"><a href="#recursos">Recursos</a></li>
 				<li class="page-scroll"><a href="#publicacoes">Publicações</a></li>
-				<li class="page-scroll dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#veja">Veja também <span class="caret"></span></a>
-        			<ul class="dropdown-menu">
-          				<li><a href="#veja">Outros labs</a></li>
-          				<li><a href="#veja">Pessoas da IA</a></li>
-          				<li><a href="#veja">App IA/WEB</a></li>
-          				<li><a href="#veja">Disciplinas IA/UFSC</a></li>
-        			</ul>
-      			</li>
+				<li class="page-scroll"><a href="#veja">Veja Também</a></li>
 				<li class="page-scroll"><a href="#sobre">Sobre</a></li>
 				<li><a href="indexEng.php"><img src="img/eua.png"></span> English</a></li> 
 			</ul>
@@ -305,10 +298,10 @@
 				</ul>
 			</div>
 		</div>
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="background: #5cd65c;" id="veja">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margens" style="background: #5cd65c;" id="veja">
 			<div class="col-lg-12 text-center">
 		        <h2>Veja Também</h2>
-		        <hr class="star-light">
+		        	<hr class="star-light">
 		    </div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="outrosGrupos">
 				<h3 class="text-center"><u>Outros grupos/labs:</u></h3>

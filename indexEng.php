@@ -283,7 +283,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="background: #5cd65c;" id="veja">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margens" style="background: #5cd65c;" id="veja">
 			<div class="col-lg-12 text-center">
 		        <h2>See too</h2>
 		        <hr class="star-light">
@@ -348,7 +348,7 @@ distributed) tasks and development methods for these systems. Such systems model
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<h4><a href="">Centria  </a></h4>
+					<h4><a href="">Centria</a></h4>
 					<p>The Centro de Inteligência Artificial(CENTRIA) is an institutionalized research centre of the Universidade Nova de Lisboa (UNL). Its main areas of activity are: Knowledge Representation and Reasoning, Logic Programming,  Natural Language, Constraints, Soft Computing and Autonomous Agents, Cognitive Science. <a href="http://www-ssdi.di.fct.unl.pt/~glint/Forum-LP/">(Forum-LP) </a></p>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
